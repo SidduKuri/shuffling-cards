@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Title</title>
+    <link rel="stylesheet" href="cards.css">
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <h2>Shuffle and Sort</h2>
+        </div>
+        <div class="button-area visible-mobile">
+            <button type="button" class="button" onclick="createShuffleCards()">Shuffle</button>
+            <button type="button" class="button" onclick="sortCards()">Sort</button>
+        </div>
+        <div class="row" id="cardsRow"></div>
+        <div class="button-area visible-desktop">
+            <button type="button" class="button" onclick="createShuffleCards()">Shuffle</button>
+            <button type="button" class="button" onclick="sortCards()">Sort</button>
+        </div>
+    </section>
+    <script src="cards.js"></script>
+</body>
+
+</html>
